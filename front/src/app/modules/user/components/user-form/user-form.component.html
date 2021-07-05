@@ -1,0 +1,23 @@
+<!-- Angular material/containers -->
+<div class="container">
+    <mat-card>
+      <mat-card-title>Cadastro</mat-card-title>
+      <form [formGroup]="form" (ngSubmit)="createUser(form)">
+        <mat-form-field>
+          <mat-label>Name</mat-label>
+          <input matInput formControlName="name">
+        </mat-form-field>
+
+        <mat-form-field>
+          <mat-label>CPF</mat-label>
+          <input matInput formControlName="cpf">
+        </mat-form-field>
+
+        <mat-form-field>
+          <mat-label>Email</mat-label>
+          <input matInput formControlName="phone">
+        </mat-form-field>
+        <button type="submit" mat-raised-button color="primary">Save</button>
+      </form>
+    </mat-card>
+  </div>

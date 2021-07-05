@@ -1,0 +1,12 @@
+.flex-mom {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  table {
+    width: 60%;
+    margin-bottom: 4%;
+    overflow-y: scroll;
+  }
+}
