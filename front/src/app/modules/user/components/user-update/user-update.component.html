@@ -1,0 +1,33 @@
+<mat-card>
+  <mat-card-title>Olá mundo</mat-card-title>
+  <span>Above, you will be able to update your account information</span>
+
+  <div fxLayout="row" fxLayoutAlign="center center">
+    <div fxLayout="column" fxFlex="30%">
+      <div fxLayout="row">
+        <mat-form-field fxFlex="100%">
+          <mat-label>Search</mat-label>
+          <input matInput type="text">
+        </mat-form-field>
+      </div>
+      <button mat-raised-button type="button">Search</button>
+      <div>
+        <!-- Returning data -->
+      </div>
+    </div>
+    <form fxLayout="column" fxFlex="70%">
+      <mat-form-field>
+        <mat-label>Name</mat-label>
+        <input matInput type="text">
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>CPF</mat-label>
+        <input matInput type="text">
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>Phone</mat-label>
+        <input matInput type="number">
+      </mat-form-field>
+    </form>
+  </div>
+</mat-card>

@@ -1,0 +1,54 @@
+mat-sidenav-container {
+  height: 100vh;
+
+  mat-sidenav,
+  mat-sidenav-content {
+    padding: 16px;
+  }
+  mat-sidenav {
+    background-color: #5c6bc0;
+    width: 200px;
+    color: white;
+
+    h1 {
+      font-family: 'Montserrat';
+      font-size: 19px;
+      font-weight: bold;
+    }
+
+    ul {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      width: 100%;
+      
+      a {
+        color: white;
+        text-decoration: none;
+      }
+      li {
+        padding: 10px 10px;
+        width: 140px;
+        transition: .3s;
+        font-size: 13px;
+        cursor: pointer;
+
+      }
+
+      li:hover {
+        background: #5362b6;
+      }
+    }
+  }
+  mat-sidenav-content {
+    mat-icon {
+      transition: 0.3s;
+      cursor: pointer;
+      padding: 10px;
+    }
+    mat-icon:hover {
+      border-radius: 30px;
+      background-color: rgb(243, 232, 242);
+    }
+  }
+}

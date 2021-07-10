@@ -1,0 +1,9 @@
+form {
+  margin-left: 5%;
+
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0
+  }
+}

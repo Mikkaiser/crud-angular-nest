@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+
+    mat-card {
+        min-width: 15%;
+    }
+    form {
+        mat-form-field {
+            display: block;
+        }
+        button {
+            font-size: 14px;
+            width: 100%;
+        }
+    }
+}
