@@ -1,0 +1,16 @@
+{
+  "contacts": [
+    {
+      "name": "Mikael Simões",
+      "cpf": "12233333322",
+      "phone": "21111122222",
+      "id": 1
+    },
+    {
+      "name": "Mikael Ribeiro Simões",
+      "cpf": "12233333322",
+      "phone": "21111122222",
+      "id": 2
+    }
+  ]
+}

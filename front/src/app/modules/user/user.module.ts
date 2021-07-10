@@ -12,9 +12,12 @@ import { UserListComponent } from './components/user-list/user-list.component';
 import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
+import { UserUpdateComponent } from './components/user-update/user-update.component';
+import { FlexLayoutModule } from '@angular/flex-layout';
+
 
 @NgModule({
-  declarations: [UserFormComponent, UserListComponent],
+  declarations: [UserFormComponent, UserListComponent, UserUpdateComponent],
   imports: [
     CommonModule,
     UserRoutingModule,
@@ -27,7 +30,8 @@ import { MatSortModule } from '@angular/material/sort';
     ReactiveFormsModule,
     MatPaginatorModule,
     MatSortModule,
+    FlexLayoutModule
   ],
-  exports: [UserFormComponent, UserListComponent],
+  exports: [UserFormComponent, UserListComponent, UserUpdateComponent],
 })
 export class UserModule {}
